@@ -12,13 +12,15 @@ Este sistema utiliza una cámara IP para capturar imágenes en tiempo real, dete
 
 ## 🗂️ Estructura del Proyecto
 
+```plaintext
 face_detection_system/
-├── embeddings/              # Archivos .pkl con embeddings de cada persona
-├── dataset/                 # Imágenes recortadas (solo rostros) por persona
-├── temp_unknown/            # Imágenes temporales de personas desconocidas
-├── cap_rostro.py            # Script principal del sistema
-├── README.md                # Este archivo
-└── requirements.txt         # Dependencias del proyecto
+├── embeddings/        # Archivos .pkl con embeddings de cada persona
+├── dataset/           # Imágenes recortadas (solo rostros) por persona
+├── temp_unknown/      # Imágenes temporales de personas desconocidas
+├── cap_rostro.py      # Script principal del sistema
+├── README.md          # Este archivo
+└── requirements.txt   # Dependencias del proyecto
+```
 
 ---
 
