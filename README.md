@@ -99,6 +99,7 @@ python --version
 ## 🔐 Configurar token de Telegram y cámara
 
 ### Modificá las siguientes variables en el archivo cap_rostro.py:
+
 ```
 TELEGRAM_TOKEN = "tu_token_de_telegram"
 CHAT_ID = "tu_chat_id"
