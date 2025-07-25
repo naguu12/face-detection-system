@@ -1,0 +1,35 @@
+# ── ENTORNO Y CONFIG LOCAL ──
+.vscode/
+**/venv/
+**/entorno/
+**/.env
+**/.pyc
+__pycache__/
+
+# ── DATOS Y LOGS ──
+*.png
+*.jpg
+*.npz
+*.pkl
+*.log
+captures/
+metadata/
+artifacts/
+logs/
+checkpoints/
+results/
+
+# ── TELEGRAM / BOT ──
+secrets/
+sessions/
+
+# ── PACKAGING / DEPLOY ──
+build/
+dist/
+*.egg-info
+*.exe
+__pyinstaller__/
+
+# ── SISTEMA OPERATIVO ──
+.DS_Store
+Thumbs.db
