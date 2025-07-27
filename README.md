@@ -13,13 +13,27 @@ Este sistema utiliza una cámara IP para capturar imágenes en tiempo real, dete
 ## 🗂️ Estructura del Proyecto
 
 ```plaintext
-face_detection_system/
-├── embeddings/        # Archivos .pkl con embeddings de cada persona
-├── dataset/           # Imágenes recortadas (solo rostros) por persona
-├── temp_unknown/      # Imágenes temporales de personas desconocidas
-├── cap_rostro.py      # Script principal del sistema
-├── README.md          # Este archivo
-└── requirements.txt   # Dependencias del proyecto
+face-detection-system/
+├── labs/                # Scripts funcionales (.py)
+│   ├── cam_test.py             # Testeo de cámara local (Tapo C-210)
+│   ├── img_capture.py          # Captura de dataset por rostro
+│   ├── generate_embeddings.py  # Embedding facial y persistencia
+│   ├── live_compare.py         # Imagen en vivo vs embeddings
+│   └── bot_master.py           # Módulo Telegram + Tapo + Auto-entrenamiento
+│
+├── notebooks/           # Prototipos y experimentos (.ipynb)
+│   ├── cam_test.ipynb
+│   ├── dataset_builder.ipynb
+│   ├── embeddings_gen.ipynb
+│   ├── live_match.ipynb
+│   └── bot_system.ipynb
+│
+├── cap_rostro.py               # Script principal del sistema
+├── requirements.txt            # Dependencias del proyecto
+├── .gitignore
+├── LICENSE
+├── README.md
+
 ```
 
 ---
