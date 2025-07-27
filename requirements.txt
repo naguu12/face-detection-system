@@ -1,0 +1,18 @@
+# Procesamiento visual
+opencv-python==4.9.0.80         # Captura de imagen, manejo de cámara y manipulación básica
+
+# Reconocimiento facial
+face-recognition==1.3.0         # Extracción de embeddings faciales y comparación entre rostros
+
+# Comunicación y APIs externas
+requests==2.31.0                # Envío de datos por HTTP, útil para alertas o integración externa
+
+# Bot de Telegram (versión moderna asíncrona)
+python-telegram-bot==20.6       # Framework para bots Telegram: comandos, envío de imágenes, callbacks
+
+# Logging avanzado (opcional)
+loguru==0.7.2                   # Logs estructurados con niveles, timestamp y formateo limpio
+
+# Configuración externa y validación (módulos futuros)
+python-dotenv==1.0.1            # Lectura de variables desde archivo .env (tokens, umbrales, etc)
+pydantic==2.7.3                 # Validación estricta de parámetros, rutas, inputs del sistema
