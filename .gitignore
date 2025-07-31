@@ -5,6 +5,7 @@
 **/.env
 **/.pyc
 __pycache__/
+**/.ipynb_checkpoints/
 
 # ── DATOS Y LOGS ──
 *.png
